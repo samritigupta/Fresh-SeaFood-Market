@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {getFunName} from '../helpers';
 
 class StorePicker extends React.Component {
@@ -13,6 +14,10 @@ class StorePicker extends React.Component {
         event.preventDefault();   // by default form will submit to action all the conent in form tag and whole page will load. To prevent it use this.
         console.log(this);
     } */
+
+    static propTypes = {
+        history: PropTypes.object
+    };
 
     myInput = React.createRef();
     goToStore = event => {

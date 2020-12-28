@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // When your compoent is not doing anything except render method then we can convert it into stateless function instead of defining class.
 
@@ -18,6 +19,10 @@ const Header = ({tagline}) => (
                 </h3>
             </header>
 );
+
+Header.propTypes = {
+    tagline: PropTypes.string.isRequired
+}
 
 /* class Header extends React.Component{
     render(){
