@@ -2,10 +2,10 @@
 Live : https://distracted-williams-9c74b4.netlify.app/
 
 # To Start
-git clone
-cd Fresh-SeaFood-Market-React
-npm install
-npm start
+- git clone the repo
+- cd Fresh-SeaFood-Market-React
+- npm install
+- npm start
 
 # Functionality overview
 - Use official Firebase package for Auth and re-base for data binding
