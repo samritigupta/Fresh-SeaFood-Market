@@ -10,6 +10,7 @@ Real time fish food market. Can check fishes available at different stores, main
 - npm start
 
 # Functionality overview
+- Use of local browser storage for storing orders, so if you move from one store to another data is not lost
 - Use of state for order and fish price change
 - Use official Firebase package for Auth and re-base for data binding
 - Move promise based code to async/await
