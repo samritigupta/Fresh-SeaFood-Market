@@ -1,5 +1,6 @@
 # Fresh-SeaFood-Market
-Live : https://distracted-williams-9c74b4.netlify.app/
+Live At : https://distracted-williams-9c74b4.netlify.app/
+Real time fish food market. Can check fishes available at different stores, maintain inventory and order details. 
 
 # To Start
 - git clone the repo
@@ -8,7 +9,10 @@ Live : https://distracted-williams-9c74b4.netlify.app/
 - npm start
 
 # Functionality overview
+- Use of state for order and fish price change
 - Use official Firebase package for Auth and re-base for data binding
 - Move promise based code to async/await
 - Show how to return multiple elements with React.Fragment
+- Use of Routers
+
 
