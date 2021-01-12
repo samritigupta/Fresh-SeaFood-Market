@@ -15,6 +15,6 @@ Real time fish food market. Can check fishes available at different stores, main
 - Use official Firebase package for Auth and re-base for data binding
 - Move promise based code to async/await
 - Show how to return multiple elements with React.Fragment
-- Use of Routers
+- Use of Routers and props
 
 
